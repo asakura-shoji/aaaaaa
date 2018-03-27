@@ -1,0 +1,62 @@
+.clearfix:after {
+  content:" ";
+  display:block;
+  clear:both;
+}
+
+div#animate-complete-title {
+  float: left;
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+div#animate-complete-block-1 {
+  float: left;
+  background-color: #ff6600;
+  height: 50px;
+  width: 100px;
+}
+div#animate-complete-block-2 {
+  float: left;
+  background-color: #ff9900;
+  height: 50px;
+  width: 100px;
+}
+div#animate-complete-block-3 {
+  float: left;
+  background-color: #ffcc00;
+  height: 50px;
+  width: 100px;
+}
+
+.start__btn {
+  width: 50px;
+  margin: 0;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.opacity {
+  height: 50px;
+  width: 100px;
+  background-color: #ccc;
+}
+
+.link_id {
+  list-style:none;
+  padding: 0;
+}
+
+.continuity {
+  width: 50px;
+  height: 50px;
+  background: #3399cc;
+  position: relative;
+}
+
+.opa {
+  width: 50px;
+  height: 50px;
+  background: #000;
+}
