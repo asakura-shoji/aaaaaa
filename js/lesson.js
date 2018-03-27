@@ -1,6 +1,7 @@
 $(function() {
   var obj = JSON.parse(document.getElementById('json').innerText);
-  
+  console.log(2100*8*19);
+  console.log(190000);
   var insertData = function() {
     for (var i = 0; i < obj.length; i++) {
       $('.link_id').append('<li></li>');

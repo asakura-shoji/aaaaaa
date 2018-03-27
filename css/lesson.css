@@ -60,3 +60,91 @@ div#animate-complete-block-3 {
   height: 50px;
   background: #000;
 }
+
+.box__wrap {
+  margin-top: 10px;
+}
+
+.box1 {
+  display: inline-block;
+  background: #ccc;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  transition: all .3s ease;
+}
+
+.box2 {
+  display: inline-block;
+  background: #ccc;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  transition: all .3s ease 0s;
+}
+
+.box3 {
+  display: inline-block;
+  background: #ccc;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border: 2px solid #ccc;
+  transition: all .3s ease 0s;
+}
+
+.box1:hover {
+  background: #fff;
+  position: 
+}
+
+.box2:hover {
+  transform: scale(0.8) rotate(90deg);
+}
+
+.box3:hover {
+  transform: rotate(90deg);
+  /* transform: rotate(720deg); */
+}
+
+.move {
+  margin-top: 10px;
+  position: relative;
+  box-shadow: 0 0px 0px 24px #eee inset;
+  height: 24px;
+  width: 350px;
+}
+
+.move:before {
+  position: absolute;
+  background: #7fcfe2;
+  height: 24px;
+  width: 24px;
+  content: '';
+  left: 0;
+  top: 0;
+  animation: square 4s linear infinite;
+}
+
+@keyframes square {
+  50% {
+    left: 100%;
+    top: 0;
+    transform: translate(-100%, 0);
+  }
+  100% {
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, 0%);
+  }
+}
+
+.footer {
+  height: 50px;
+  width: 50px;
+  background-color: #FFDDFF;
+}
